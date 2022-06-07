@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">LearnJetpackComposeByExample</string>
     <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_custom_view_paint">CustomViewPaintActivity</string>
 </resources>

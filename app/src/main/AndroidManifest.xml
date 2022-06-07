@@ -16,6 +16,11 @@
         android:theme="@style/Theme.LearnJetpackComposeByExample"
         tools:targetApi="31">
         <activity
+            android:name=".customview.CustomViewPaintActivity"
+            android:exported="false"
+            android:label="@string/title_activity_custom_view_paint"
+            android:theme="@style/Theme.LearnJetpackComposeByExample" />
+        <activity
             android:name=".image.ImageActivity"
             android:exported="false"
             android:label="@string/title_activity_image"
