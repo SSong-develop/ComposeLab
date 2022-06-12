@@ -15,6 +15,7 @@ import androidx.compose.ui.Modifier
 import com.ssong_develop.learnjetpackcomposebyexample.customview.CustomViewActivity
 import com.ssong_develop.learnjetpackcomposebyexample.customview.CustomViewPaintActivity
 import com.ssong_develop.learnjetpackcomposebyexample.image.ImageActivity
+import com.ssong_develop.learnjetpackcomposebyexample.text.CustomTextActivity
 import com.ssong_develop.learnjetpackcomposebyexample.ui.theme.LearnJetpackComposeByExampleTheme
 
 class MainActivity : ComponentActivity() {
@@ -47,6 +48,10 @@ class MainActivity : ComponentActivity() {
                         SimpleButton(
                             activity = this@MainActivity,
                             className = CustomViewPaintActivity::class.java
+                        )
+                        SimpleButton(
+                            activity = this@MainActivity,
+                            className = CustomTextActivity::class.java
                         )
                     }
                 }
