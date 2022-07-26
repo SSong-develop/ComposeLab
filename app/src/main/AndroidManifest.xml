@@ -16,6 +16,11 @@
         android:theme="@style/Theme.LearnJetpackComposeByExample"
         tools:targetApi="31">
         <activity
+            android:name=".MeasuringScaleActivity"
+            android:exported="false"
+            android:label="@string/title_activity_measuring_scale"
+            android:theme="@style/Theme.LearnJetpackComposeByExample" />
+        <activity
             android:name=".text.CustomTextActivity"
             android:exported="false"
             android:label="@string/title_activity_custom_text"

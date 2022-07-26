@@ -3,4 +3,5 @@
     <string name="title_activity_image">ImageActivity</string>
     <string name="title_activity_custom_view_paint">CustomViewPaintActivity</string>
     <string name="title_activity_custom_text">CustomTextActivity</string>
+    <string name="title_activity_measuring_scale">MeasuringScaleActivity</string>
 </resources>
