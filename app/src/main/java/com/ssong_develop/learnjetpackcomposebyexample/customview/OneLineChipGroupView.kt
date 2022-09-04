@@ -1,6 +1,7 @@
 package com.ssong_develop.learnjetpackcomposebyexample.customview
 
 import android.content.Context
+import android.text.Layout
 import android.util.TypedValue
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Stable
@@ -64,6 +65,7 @@ fun OneLineChipGroupView(
         remainItemCountViewWidth = context.pxToDp(context.spToPx(12.sp * "+${totalChipCount - oneLinePlaceable.size}".length)).dp
 
         if (isOverOneLine) {
+            // 여기를 재귀로 바꿀 수 있다. tailrec
             oneLinePlaceable.run {
                 while (removedViewWidth.value <= remainItemCountViewWidth.value) {
                     removedViewWidth += oneLinePlaceable.last().first.width.toDp()
