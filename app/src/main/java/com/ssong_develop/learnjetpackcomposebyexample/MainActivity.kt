@@ -21,6 +21,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.ssong_develop.learnjetpackcomposebyexample.animation.Animation1Activity
+import com.ssong_develop.learnjetpackcomposebyexample.animation.Animation2Activity
 import com.ssong_develop.learnjetpackcomposebyexample.customview.CustomViewActivity
 import com.ssong_develop.learnjetpackcomposebyexample.customview.CustomViewPaintActivity
 import com.ssong_develop.learnjetpackcomposebyexample.customview.OneLineChipGroupView
@@ -77,6 +78,10 @@ fun TestScreen(
         SimpleButton(
             activity = activity,
             className = Animation1Activity::class.java
+        )
+        SimpleButton(
+            activity = activity,
+            className = Animation2Activity::class.java
         )
     }
 }
