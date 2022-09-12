@@ -1,4 +1,4 @@
-package com.ssong_develop.learnjetpackcomposebyexample.customview.zigzag
+package com.ssong_develop.learnjetpackcomposebyexample.customview.zigzag.`else`
 
 import androidx.compose.animation.core.*
 import androidx.compose.foundation.layout.Column

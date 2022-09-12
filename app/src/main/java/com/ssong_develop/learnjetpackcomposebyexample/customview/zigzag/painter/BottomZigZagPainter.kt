@@ -2,7 +2,7 @@ package com.ssong_develop.learnjetpackcomposebyexample.customview.zigzag.painter
 
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Path
-import com.ssong_develop.learnjetpackcomposebyexample.customview.zigzag.ZigZagType
+import com.ssong_develop.learnjetpackcomposebyexample.customview.zigzag.`else`.ZigZagType
 import com.ssong_develop.learnjetpackcomposebyexample.customview.zigzag.extension.drawCircularBottomZigZag
 import com.ssong_develop.learnjetpackcomposebyexample.customview.zigzag.extension.drawCircularBottomZigZagAnimation
 import com.ssong_develop.learnjetpackcomposebyexample.customview.zigzag.extension.drawLinearBottomZigZag
