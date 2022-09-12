@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalAnimationApi::class)
+
 package com.ssong_develop.learnjetpackcomposebyexample
 
 import android.content.Intent
@@ -5,6 +7,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.scrollable
 import androidx.compose.foundation.layout.*
@@ -26,6 +29,7 @@ import com.ssong_develop.learnjetpackcomposebyexample.animation.ListAnimationAct
 import com.ssong_develop.learnjetpackcomposebyexample.customview.CustomViewActivity
 import com.ssong_develop.learnjetpackcomposebyexample.customview.CustomViewPaintActivity
 import com.ssong_develop.learnjetpackcomposebyexample.customview.OneLineChipGroupView
+import com.ssong_develop.learnjetpackcomposebyexample.customview.zigzag.ZigZagViewActivity
 import com.ssong_develop.learnjetpackcomposebyexample.image.ImageActivity
 import com.ssong_develop.learnjetpackcomposebyexample.text.CustomTextActivity
 import com.ssong_develop.learnjetpackcomposebyexample.ui.theme.LearnJetpackComposeByExampleTheme
@@ -87,6 +91,10 @@ fun TestScreen(
         SimpleButton(
             activity = activity,
             className = ListAnimationActivity::class.java
+        )
+        SimpleButton(
+            activity = activity,
+            className = ZigZagViewActivity::class.java
         )
     }
 }
