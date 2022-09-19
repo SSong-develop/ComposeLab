@@ -31,6 +31,7 @@ import com.ssong_develop.learnjetpackcomposebyexample.customview.CustomViewPaint
 import com.ssong_develop.learnjetpackcomposebyexample.customview.OneLineChipGroupView
 import com.ssong_develop.learnjetpackcomposebyexample.customview.overlapping.OverlappingActivity
 import com.ssong_develop.learnjetpackcomposebyexample.customview.zigzag.ZigZagViewActivity
+import com.ssong_develop.learnjetpackcomposebyexample.customview.zoomableimage.ZoomableImageActivity
 import com.ssong_develop.learnjetpackcomposebyexample.image.ImageActivity
 import com.ssong_develop.learnjetpackcomposebyexample.text.CustomTextActivity
 import com.ssong_develop.learnjetpackcomposebyexample.ui.theme.LearnJetpackComposeByExampleTheme
@@ -100,6 +101,10 @@ fun TestScreen(
         SimpleButton(
             activity = activity,
             className = OverlappingActivity::class.java
+        )
+        SimpleButton(
+            activity = activity,
+            className = ZoomableImageActivity::class.java
         )
     }
 }

@@ -8,4 +8,5 @@
     <string name="title_activity_list_animation">ListAnimationActivity</string>
     <string name="title_activity_zig_zag_view">ZigZagViewActivity</string>
     <string name="title_activity_overlapping">OverlappingActivity</string>
+    <string name="title_activity_zoomable_image">ZoomableImageActivity</string>
 </resources>
